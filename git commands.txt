@@ -1,0 +1,27 @@
+//clone github file
+git clone https://github.com/pos1229/test
+
+//go to branch 123
+git checkout 123
+
+//compare file ttt.txt in master & 123
+git diff master 123 ttt.txt
+
+//compare all files master 123
+git diff master 123
+
+//look branch
+git branch
+
+//go to branch 123
+git checkout 123
+
+//commit files 
+git commit -m "µùÄÀ"
+
+//merge branch to master
+git checkout master
+git merge <branch name>
+
+//push to github
+git push origin  master

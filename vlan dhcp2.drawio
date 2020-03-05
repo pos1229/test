@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-05T06:19:56.230Z" agent="Mozilla/5.0 (Windows NT 6.0; rv:52.0) Gecko/20100101 Firefox/52.0" etag="rGUPvP3Alkn1ZBP842x-" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-05T06:27:25.302Z" agent="Mozilla/5.0 (Windows NT 6.0; rv:52.0) Gecko/20100101 Firefox/52.0" etag="24thPOAdCcjWEVs-hJyV" version="12.7.9" type="github">
   <diagram id="kbtNOsz7rqfZJP28Q2Al" name="Page-1">
-    <mxGraphModel dx="2565" dy="1385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="855" dy="462" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,6 +186,9 @@
         </mxCell>
         <mxCell id="jPKBkUSwt3VBMfAnVN7h-17" value="Switch&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;config VLAN on ports&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="18" y="2880" width="227" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jPKBkUSwt3VBMfAnVN7h-18" value="Hybird &lt;br&gt;(接收)&lt;br&gt;收到沒tag-&amp;gt;貼上PVID做tag&lt;br&gt;收到有tag-&amp;gt;看tag是否允許 &lt;br&gt;是轉發 否丟替&lt;br&gt;&lt;br&gt;(發送)&lt;br&gt;untag剝離&lt;br&gt;tag轉發&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="571" y="307" width="226" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
